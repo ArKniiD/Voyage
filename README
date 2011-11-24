@@ -1,1 +1,10 @@
-uhbvhjrbhjvbrhjbv
+
+╻  ┏━╸   ╻ ╻┏━┓╻ ╻┏━┓┏━╸┏━╸╻ ╻┏━┓   ╺┳┓┏━╸   ┏━╸┏━┓┏┳┓┏┳┓┏━╸┏━┓┏━╸┏━╸
+┃  ┣╸    ┃┏┛┃ ┃┗┳┛┣━┫┃╺┓┣╸ ┃ ┃┣┳┛    ┃┃┣╸    ┃  ┃ ┃┃┃┃┃┃┃┣╸ ┣┳┛┃  ┣╸ 
+┗━╸┗━╸   ┗┛ ┗━┛ ╹ ╹ ╹┗━┛┗━╸┗━┛╹┗╸   ╺┻┛┗━╸   ┗━╸┗━┛╹ ╹╹ ╹┗━╸╹┗╸┗━╸┗━╸
+
+Un voyageur de commerce doit visiter n villes et revenir à son point de départ sans repasser deux fois par la même ville. L'objectif est de trouver le bon ordre de visite de ces villes afin de minimiser la distance parcourue.
+
+Si on veut trouver la meilleure solution possible en explorant tous les possibilités, on se heurte à un problème d'explosion combinatoire: le nombre de possibilités est de (n-1)! 2 (12 pour 5 villes, 43 millards pour 15 villes, ...)
+
+On se contentera donc d'une très bonne solution... Pour cela, on utilisera une méthode de résolution approchée du problème, à l'aide d'un algorithme génétique
